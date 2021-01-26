@@ -1,0 +1,61 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+ textarea, input, mat-expansion-panel {
+  border-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+mat-card {
+  max-width: 500px;
+}
+
+p {
+  color: grey;
+}
+
+mat-accordion {
+  margin: 100px;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.blog-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.card-image {
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-heigth: 200px;
+}
+
+mat-expansion-panel {
+  border-color: white;
+}
+
+mat-expansion-panel-header {
+  height: auto;
+  padding: 02%;
+}
+
+.post-image img {
+  max-height: 300px;
+  width: auto;
+  border-radius: 04px;
+  margin: 30px;
+}
+
+.title {
+  text-align: center;
+  float: top;
+  padding-right: 10%;
+  width: 100px;
+}
+
+

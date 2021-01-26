@@ -1,0 +1,42 @@
+section
+ {
+  min-height: 100px;
+  width: 100%;
+  padding-top: 18%;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("https://images.unsplash.com/photo-1564495584622-0bb3af6f668e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80");
+ }
+
+ .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ p {
+  color: white;
+ }
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
